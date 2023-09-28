@@ -1,0 +1,5 @@
+[autorun]
+open=main.exe
+action=Run main Program
+icon=main.exe
+label=localhost inventory
