@@ -1,19 +1,6 @@
 """
 A inventory script to collect hardware information of the current local host to file.
 Works on MS Windows  semoi-automatically and offline.
-Intended to build up a initial hosts hardware inventory for your CMDB
-
-
-Create a standalone portable .EXE file with
-    cd 'C:\Users\mame5894\AppData\Roaming\Python\Python39\Scripts\dist'
-    .\pyinstaller.exe --onefile 'C:\Users\mame5894\workspace\localhost inventory\main.py'
-To be invoked at USB mount, 
-Poor mans hardware inventory agent ;-)
-
-Use pyinstaller to build your portable executable. Copy resulting main.exe to your USB-Drive and optionally create a corresponding autorun.inf to popup the tool directly after automount.
-
-
-Feel free to fork and adapt to your own requirements to buildup a first machine repository at your organisation!
 """
 
 import os
